@@ -1,0 +1,15 @@
+# files
+config.env
+
+# folders
+node_modules/
+public/js/dist/
+.parcel-cache/
+
+# extensions
+*.log
+*.env
+
+public/img/users/
+public/img/tours/
+dev-data/

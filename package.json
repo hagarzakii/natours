@@ -1,0 +1,53 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon server.js",
+    "debug": "ndb server.js",
+    "watch:js": "parcel watch ./public/js/index.js --dist-dir ./public/js/dist",
+    "build:js": "parcel watch ./public/js/index.js --dist-dir ./public/js"
+  },
+  "author": "hagar hashesh",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "axios": "^1.13.6",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.2",
+    "express": "^4.21.2",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "html-to-text": "^9.0.5",
+    "jsonwebtoken": "^9.0.2",
+    "leaflet": "^1.9.4",
+    "mongoose": "^8.18.2",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "nodemailer": "^7.0.10",
+    "pug": "^3.0.3",
+    "sharp": "^0.34.5",
+    "slugify": "^1.6.6",
+    "stripe": "^20.4.1",
+    "validator": "^13.15.15",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "cross-env": "^10.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "parcel": "^2.16.4",
+    "prettier": "^1.17.0"
+  }
+}
