@@ -111,7 +111,3 @@ natours/
 ├── app.js             # Express app setup
 └── server.js          # Server entry point
 ```
-
-## Author
-
-Hagar Hashesh — built while learning from Jonas Schmedtmann's Node.js bootcamp.
